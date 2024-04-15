@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import NotesList from "./components/NoteList";
+import Navbar from "./components/Navbar";
+import Notification from "./components/Notification";
+import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { toggleModal } from "./actions/modalActions";
+const App = () => {
+    const dispatch = useDispatch()
+    const open = useSelector(state=>state.modal.isOpened)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {open&&<div className="backdrop" onClick={()=>dispatch(toggleModal({ isEdit: false, isOpen: !open }))}></div>}
+
+      <Navbar />
+      <NotesList />
+      <Notification/>
     </div>
   );
-}
-
+};
 export default App;

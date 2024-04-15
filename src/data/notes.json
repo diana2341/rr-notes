@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "First entry",
+        "description": "Description of the first entry",
+        "date": "2024-04-11",
+        "category": "general",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 2,
+        "title": "Second entry",
+        "description": "Description of the second entry",
+        "date": "2024-04-10",
+        "category": "work",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 3,
+        "title": "Third entry",
+        "description": "Description of the third entry",
+        "date": "2024-04-09",
+        "category": "study",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 4,
+        "title": "Fourth entry",
+        "description": "Description of the fourth entry",
+        "date": "2024-04-08",
+        "category": "general",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 5,
+        "title": "Fifth entry",
+        "description": "Description of the fifth entry",
+        "date": "2024-04-07",
+        "category": "work",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 6,
+        "title": "Sixth entry",
+        "description": "Description of the sixth entry",
+        "date": "2024-04-06",
+        "category": "study",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 7,
+        "title": "Seventh entry",
+        "description": "Description of the seventh entry",
+        "date": "2024-04-05",
+        "category": "general",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 8,
+        "title": "Eighth entry",
+        "description": "Description of the eighth entry",
+        "date": "2024-04-04",
+        "category": "work",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 9,
+        "title": "Ninth entry",
+        "description": "Description of the ninth entry",
+        "date": "2024-04-03",
+        "category": "study",
+        "edited_date": null,
+        "favorite": false
+    },
+    {
+        "id": 10,
+        "title": "Tenth entry",
+        "description": "Description of the tenth entry",
+        "date": "2024-04-02",
+        "category": "general",
+        "edited_date": null,
+        "favorite": false
+    }
+]
